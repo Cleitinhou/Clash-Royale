@@ -1,0 +1,59 @@
+@import url('./reset.css');
+
+
+
+header{
+    background-image: url('./paper.jpg');
+    background-position-y: 0;
+    background-position: center;
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    box-shadow: black 5px 5px 20px;
+}
+
+.logo{
+    width: 25%;
+    margin-bottom: 13em;
+}
+
+
+Ul{
+    color: rgb(6, 56, 100);
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 1em;
+}
+
+li{
+    text-align: center;
+    margin: 30px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.links:hover{
+    animation-fill-mode: backwards;
+    color: rgb(69, 6, 108);
+    font-size: 40px;
+    padding: auto;
+    text-shadow: rgb(6, 56, 100) 5px 5px 5px;
+    
+
+}
+
+.links{
+    transition: 0.3s;
+}
+
+.links{
+    text-decoration: none;
+    color: rgb(6, 56, 100);
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Poppins';
+}
